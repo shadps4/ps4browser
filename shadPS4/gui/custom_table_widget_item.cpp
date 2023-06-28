@@ -1,6 +1,7 @@
 #include "custom_table_widget_item.h"
 
 #include <QDateTime>
+#include <stdexcept>
 
 custom_table_widget_item::custom_table_widget_item(const std::string& text, int sort_role, const QVariant& sort_value)
 	: game_list_item(QString::fromStdString(text).simplified()) // simplified() forces single line text
