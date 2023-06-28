@@ -39,6 +39,9 @@
     <Filter Include="gui\main window">
       <UniqueIdentifier>{731089fd-7d11-4f10-8f55-4854c2e42e9e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Crypto">
+      <UniqueIdentifier>{7924f9b7-c4b7-4879-8c3c-0c4c5cf5aa8f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -85,6 +88,9 @@
     </ClCompile>
     <ClCompile Include="gui\main_window.cpp">
       <Filter>gui\main window</Filter>
+    </ClCompile>
+    <ClCompile Include="emulator\fileFormat\EntryKeys.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +163,9 @@
     </ClInclude>
     <ClInclude Include="gui\custom_table_widget_item.h">
       <Filter>gui\game list</Filter>
+    </ClInclude>
+    <ClInclude Include="emulator\fileFormat\EntryKeys.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
